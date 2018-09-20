@@ -11,10 +11,10 @@ public class Calculate {
 		int x, y;
 		String operator;
 		while (true) {
-			System.out.println("¿¬»êÇÒ µÎ °ªÀ» ÀÔ·ÂÇÏ½Ã¿À.");
+			System.out.println("ì—°ì‚°í•  ë‘ ê°’ì„ ì…ë ¥í•˜ì‹œì˜¤.");
 			x = input.nextInt();
 			y = input.nextInt();
-			System.out.println("¿¬»êÇÒ ¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À. (+, -, *, /)");
+			System.out.println("ì—°ì‚°í•  ì—°ì‚°ìë¥¼  ì…ë ¥í•˜ì‹œì˜¤. (+, -, *, /)");
 			operator = input.next();
 			if (operator.equals("+")) {
 				System.out.println(x + " + " + y + " = " + add(x, y));
@@ -25,7 +25,7 @@ public class Calculate {
 			} else if (operator.equals("/")) {
 				System.out.println(x + " / " + y + " = " + div(x, y));
 			} else {
-				System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				break;
 			}
 		}
@@ -46,7 +46,6 @@ public class Calculate {
 	}
 
 	public static double div(int x, int y) {
-		// ½Ç¼ö·Î ¹İÈ¯ÀÌ µÇµµ·Ï ±¸Çö
 
 		return 0;
 	}
